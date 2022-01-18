@@ -1,0 +1,19 @@
+Define a function named ask_user that ask user "Yes or No :" for  5 times and
+store all the  answers into a list and print it as shown as in the result.
+
+
+
+
+
+
+creating a list using l 
+for loop for asking the user yes or no
+l. append so you move the user answers to the list l
+
+def ask_user():
+    l = []
+    for i in range(5):
+        x = input("Yes or No :")
+        l.append(x)
+    
+    print (l)
