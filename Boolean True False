@@ -1,0 +1,11 @@
+Define a function named greater(num_1 , num_2) with two parameters and that return a Boolean value.
+
+ If num_1 is greater than or  equal to num_2 return   True and False  if num_1  is less than num_2 .
+
+
+
+def greater(num_1 , num_2):
+    if num_1 >= num_2:
+        return True
+    if num_1 < num_2:
+        return False
