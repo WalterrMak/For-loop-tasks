@@ -1,0 +1,12 @@
+Define a function called reverse which reverse the following variable as a parameter and the output should be as shown as in the result.
+
+
+
+
+text="Welcome"
+def reverse(text):
+    return text[::-1]
+    
+    
+    
+    
