@@ -1,0 +1,30 @@
+Define a function 
+
+that ask  user "Say something here !: "
+ask user  to "Enter a number: "
+Store the  user's  answer from "Say something here !: " based on user's input number as an index position in the given list below as shown as in the result.
+my_list=["yes","no","yes","no","yes","no","no"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+my_list =["yes","no","yes","no","yes","no","no"]
+
+def insert_index():
+    x = input ("Say something here !: ")
+    y = int(input ("Enter a number: "))
+    my_list.insert(y,x)
+    print (my_list)
